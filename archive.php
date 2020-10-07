@@ -1,3 +1,7 @@
+<!-- Citation: Code is copied from TECHCareers class, written by Warren Uhrich
+                BORROWED CODE BEGINS HERE
+-------------------------------------------------------->
+
 <?php get_header(); ?>
 
 <h2>
@@ -29,3 +33,5 @@
 <?php endwhile; ?>
 
 <?php get_footer(); ?>
+
+<!-- BORROWED CODE ENDS HERE --------->

@@ -1,3 +1,7 @@
+<!-- Citation: Code is copied from TECHCareers class, written by Warren Uhrich
+                BORROWED CODE BEGINS HERE
+-------------------------------------------------------->
+
 <?php
 
 register_nav_menus(
@@ -23,5 +27,6 @@ add_action( 'wp_enqueue_scripts', function () {
     );
 } );
 
-
 ?>
+
+<!-- BORROWED CODE ENDS HERE --------->
