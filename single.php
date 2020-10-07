@@ -5,6 +5,12 @@
         Blog Post (Single):
         <?php the_title(); ?>
     </h2>
+    <p>
+        <strong>Article Published On:</strong>
+        <time datetime="<?php echo get_the_date( DATE_ATOM );?>">
+            <?php echo get_the_date(); ?>
+        </time>
+    </p>
     <h3>Post Categories</h3>
     <ul>
         <?php 
@@ -23,12 +29,7 @@
             }
         ?>
     </ul>
-    <p>
-        <strong>Article Published On:</strong>
-        <time datetime="<?php echo get_the_date( DATE_ATOM );?>">
-            <?php echo get_the_date(); ?>
-        </time>
-    </p>
+   
     <h3>Post Content</h3>
     <?php the_content(); ?>
 </article>

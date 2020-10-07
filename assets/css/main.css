@@ -1,8 +1,81 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+/* Google Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@600&display=swap');
+
+/* 
+*   CSS custom color variables 
+*   @link https://coolors.co/ffa630-d7e8ba-4da1a9-2e5077-611c35
+*/
+
+:root {
+    --orange: #ffa630ff;
+    --green: #d7e8baff;
+    --blue: #4da1a9ff;
+    --gray: #2e5077ff;
+    --mauve: #611c35ff;
 }
 
-html, body {
-    background-color: salmon;
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--gray);
+    margin: 2rem;
 }
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: var(--mauve);
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: var(--mauve);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem;
+}
+
+article, 
+.article {
+    display: block;
+    margin: 2rem auto;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 800px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+li {
+    list-style-type: none;
+    padding-right: 0.6rem;
+    display: block;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+

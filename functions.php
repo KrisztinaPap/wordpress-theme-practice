@@ -19,7 +19,7 @@ add_action( 'wp_enqueue_scripts', function () {
         'techcareers-theme-main-styles',
         get_theme_file_uri( '/assets/css/main.css' ), // Public path to the style file
         strftime( get_theme_file_uri( '/assets/css/main.css' ) ), // <--- Version number (based on time to fight broswer cache!)
-        'all'
+        'all' // Type of media we are targeting
     );
 } );
 

@@ -9,15 +9,17 @@
     ?>
 </head>
 <body>
-    <h1><?php bloginfo( 'title' ); ?></h1>
-    <nav>
-        <h2><?php bloginfo( 'title' ); ?>
-            Navigation
-        </h2>
-        <?php wp_nav_menu( 
-            array(
-                'theme_location' => 'main_menu'
-            ) 
-        ); 
-        ?>
-    </nav>
+    <div class="header">
+        <h1><?php bloginfo( 'title' ); ?></h1>
+        <nav>
+            <h2><?php bloginfo( 'title' ); ?>
+                Navigation
+            </h2>
+            <?php wp_nav_menu( 
+                array(
+                    'theme_location' => 'main_menu'
+                ) 
+            ); 
+            ?>
+        </nav>
+    </div>
