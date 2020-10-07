@@ -2,7 +2,7 @@
 
 <h2>
     Archive Template:
-    <?php echo get_archive_title(); ?>
+    <?php echo get_the_archive_title(); ?>
 </h2>
 
 <?php while ( have_posts() ) : ?>
